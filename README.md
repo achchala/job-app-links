@@ -2,6 +2,9 @@
 
 Minimal Chrome extension for quick access and one-click copy for your portfolio, GitHub, and LinkedIn links, perfect for speeding up filling out job apps!
 
+![Demo of Job App Links Chrome Extension](demo.gif)
+
+
 ## Installation
 
 1. Clone or download this repository to your computer
