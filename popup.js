@@ -7,3 +7,17 @@ function copyToClipboard(text) {
     }, 1500);
   });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("btn-portfolio").addEventListener("click", () => {
+    copyToClipboard("https://www.achchala.com");
+  });
+
+  document.getElementById("btn-github").addEventListener("click", () => {
+    copyToClipboard("https://github.com/achchala");
+  });
+
+  document.getElementById("btn-linkedin").addEventListener("click", () => {
+    copyToClipboard("https://linkedin.com/in/achchala");
+  });
+});
